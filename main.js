@@ -3,13 +3,13 @@ addEventListener('fetch', event => {
 });
 
 // Add your bot token here.
-const BOT_TOKEN = "your bot token here";
+const BOT_TOKEN = "8028779641:AAFDndHT4zDx2EvACVuN7Nsolv0S0zbFeMM";
 
 //Pro people: don't change this else your bot will be fucked.
 const API_BASE_URL = "https://metropolitan-loise-vibeshiftbot-f38d853c.koyeb.app";
 
 //Pro people: don't change this else your bot will be fucked.
-const ASSISTANT_ID = "7049510852";
+const ASSISTANT_ID = "8045235808";
 
 
 let songQueue = [];
@@ -704,7 +704,7 @@ async function handleRequest(request) {
         inline_keyboard: [
           [
             { text: "➕ Add me", url: "https://t.me/vcmusiclubot?startgroup=true" },
-            { text: "💬 Support", url: "https://t.me/Frozensupport1" }
+            { text: "💬 Support", url: "https://t.me/AuToPsY_Trauma" }
           ],
           [
             { text: "❓ Help", callback_data: "show_help" }
